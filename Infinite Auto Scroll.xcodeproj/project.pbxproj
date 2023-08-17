@@ -13,6 +13,8 @@
 		1A16CDA12A8E0D89008F8D79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A16CD9F2A8E0D89008F8D79 /* Main.storyboard */; };
 		1A16CDA32A8E0D8B008F8D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A16CDA22A8E0D8B008F8D79 /* Assets.xcassets */; };
 		1A16CDA62A8E0D8B008F8D79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A16CDA42A8E0D8B008F8D79 /* LaunchScreen.storyboard */; };
+		1A16CDAF2A8E0E59008F8D79 /* CarosselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A16CDAD2A8E0E59008F8D79 /* CarosselCollectionViewCell.swift */; };
+		1A16CDB02A8E0E59008F8D79 /* CarosselCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A16CDAE2A8E0E59008F8D79 /* CarosselCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1A16CDA22A8E0D8B008F8D79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A16CDA52A8E0D8B008F8D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A16CDA72A8E0D8B008F8D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A16CDAD2A8E0E59008F8D79 /* CarosselCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarosselCollectionViewCell.swift; sourceTree = "<group>"; };
+		1A16CDAE2A8E0E59008F8D79 /* CarosselCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarosselCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				1A16CD992A8E0D89008F8D79 /* AppDelegate.swift */,
 				1A16CD9B2A8E0D89008F8D79 /* SceneDelegate.swift */,
 				1A16CD9D2A8E0D89008F8D79 /* ViewController.swift */,
+				1A16CDAD2A8E0E59008F8D79 /* CarosselCollectionViewCell.swift */,
+				1A16CDAE2A8E0E59008F8D79 /* CarosselCollectionViewCell.xib */,
 				1A16CD9F2A8E0D89008F8D79 /* Main.storyboard */,
 				1A16CDA22A8E0D8B008F8D79 /* Assets.xcassets */,
 				1A16CDA42A8E0D8B008F8D79 /* LaunchScreen.storyboard */,
@@ -127,6 +133,7 @@
 			files = (
 				1A16CDA62A8E0D8B008F8D79 /* LaunchScreen.storyboard in Resources */,
 				1A16CDA32A8E0D8B008F8D79 /* Assets.xcassets in Resources */,
+				1A16CDB02A8E0E59008F8D79 /* CarosselCollectionViewCell.xib in Resources */,
 				1A16CDA12A8E0D89008F8D79 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A16CDAF2A8E0E59008F8D79 /* CarosselCollectionViewCell.swift in Sources */,
 				1A16CD9E2A8E0D89008F8D79 /* ViewController.swift in Sources */,
 				1A16CD9A2A8E0D89008F8D79 /* AppDelegate.swift in Sources */,
 				1A16CD9C2A8E0D89008F8D79 /* SceneDelegate.swift in Sources */,
